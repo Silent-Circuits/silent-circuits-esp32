@@ -6,10 +6,10 @@ Free ESP32 and Arduino IDE projects from the Silent Circuits YouTube channel.
 
 | Folder | Project | Status |
 | --- | --- | --- |
-| `01-blink-led` | Blink an external LED | Planned |
+| [`01-blink-led`](01-blink-led/) | Blink an external LED | Published |
 | `02-traffic-light` | Build an LED traffic light | Planned |
 
-Each published lesson gets a numbered folder and an English README with a parts list, wiring instructions, and upload steps. The main `.ino` file uses the same name as its sketch folder so it opens directly in Arduino IDE. For example, the first sketch will live at `01-blink-led/01-blink-led.ino`.
+Each published lesson gets a numbered folder and an English README with a parts list, wiring instructions, and upload steps. The main `.ino` file uses the same name as its sketch folder so it opens directly in Arduino IDE. For example, the first sketch lives at `01-blink-led/01-blink-led.ino`.
 
 ## Getting started
 
