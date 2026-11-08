@@ -1,0 +1,25 @@
+# Arduino IDE and ESP32 build output
+build/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.o
+*.d
+*.a
+*.uf2
+
+# Local settings and credentials
+.vscode/
+.env
+.env.*
+!.env.example
+arduino_secrets.h
+secrets.h
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
