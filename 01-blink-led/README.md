@@ -2,6 +2,8 @@
 
 An external LED connected to GPIO23 turns on for 500 ms, then off for 500 ms. The cycle repeats once per second.
 
+[Watch the tutorial on YouTube](https://youtu.be/ztPGvd3UWLc)
+
 ## Parts
 
 - ESP32 board with GPIO23 exposed
