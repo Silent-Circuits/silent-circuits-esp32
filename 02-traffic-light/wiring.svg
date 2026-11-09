@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 788 632" role="img" aria-labelledby="title desc">
+<title id="title">ESP32 HW-394 traffic light wiring</title>
+<desc id="desc">Top view with USB-C at the bottom. The right header begins D23, D22, TX0, RX0, D21. Each used GPIO connects through its own 220 to 330 ohm resistor to its LED anode. All cathodes connect to ground.</desc>
+<rect width="788" height="632" rx="18" fill="#f5f8fc"/>
+<g font-family="system-ui, sans-serif" fill="#172438">
+<text x="36" y="51" font-size="27" font-weight="700">ESP32 Traffic Light Wiring</text>
+<text x="37" y="81" font-size="15">HW-394 • Component side, USB-C down</text>
+<rect x="57" y="111" width="257" height="467" rx="16" fill="#172438"/>
+<rect x="131" y="128" width="112" height="37" rx="5" fill="#30445e"/>
+<text x="187" y="151" text-anchor="middle" fill="#fff" font-size="13">Antenna</text>
+<rect x="131" y="167" width="112" height="127" rx="5" fill="#d7e0ec"/>
+<text x="187" y="223" text-anchor="middle" font-size="16" font-weight="700">ESP32</text>
+<text x="187" y="249" text-anchor="middle" font-size="14">HW-394</text>
+<rect x="153" y="553" width="67" height="44" rx="6" fill="#d7e0ec" stroke="#172438" stroke-width="2"/>
+<text x="186" y="581" text-anchor="middle" font-size="13">USB-C</text>
+<g fill="#fff" font-size="13"><circle cx="78" cy="141" r="5"/><text x="91" y="146">EN</text><circle cx="292" cy="141" r="5"/><text x="278" y="146" text-anchor="end">D23</text>
+<circle cx="78" cy="170" r="5"/><text x="91" y="175">VP</text><circle cx="292" cy="170" r="5"/><text x="278" y="175" text-anchor="end">D22</text>
+<circle cx="78" cy="199" r="5"/><text x="91" y="204">VN</text><circle cx="292" cy="199" r="5"/><text x="278" y="204" text-anchor="end">TX0</text>
+<circle cx="78" cy="228" r="5"/><text x="91" y="233">D34</text><circle cx="292" cy="228" r="5"/><text x="278" y="233" text-anchor="end">RX0</text>
+<circle cx="78" cy="257" r="5"/><text x="91" y="262">D35</text><circle cx="292" cy="257" r="5"/><text x="278" y="262" text-anchor="end">D21</text>
+<circle cx="78" cy="286" r="5"/><text x="91" y="291">D32</text><circle cx="292" cy="286" r="5"/><text x="278" y="291" text-anchor="end">D19</text>
+<circle cx="78" cy="315" r="5"/><text x="91" y="320">D33</text><circle cx="292" cy="315" r="5"/><text x="278" y="320" text-anchor="end">D18</text>
+<circle cx="78" cy="344" r="5"/><text x="91" y="349">D25</text><circle cx="292" cy="344" r="5"/><text x="278" y="349" text-anchor="end">D5</text>
+<circle cx="78" cy="373" r="5"/><text x="91" y="378">D26</text><circle cx="292" cy="373" r="5"/><text x="278" y="378" text-anchor="end">D17</text>
+<circle cx="78" cy="402" r="5"/><text x="91" y="407">D27</text><circle cx="292" cy="402" r="5"/><text x="278" y="407" text-anchor="end">D16</text>
+<circle cx="78" cy="431" r="5"/><text x="91" y="436">D14</text><circle cx="292" cy="431" r="5"/><text x="278" y="436" text-anchor="end">D4</text>
+<circle cx="78" cy="460" r="5"/><text x="91" y="465">D12</text><circle cx="292" cy="460" r="5"/><text x="278" y="465" text-anchor="end">D2</text>
+<circle cx="78" cy="489" r="5"/><text x="91" y="494">D13</text><circle cx="292" cy="489" r="5"/><text x="278" y="494" text-anchor="end">D15</text>
+<circle cx="78" cy="518" r="5"/><text x="91" y="523">GND</text><circle cx="292" cy="518" r="5"/><text x="278" y="523" text-anchor="end">GND</text>
+<circle cx="78" cy="547" r="5"/><text x="91" y="552">VIN</text><circle cx="292" cy="547" r="5"/><text x="278" y="552" text-anchor="end">3V3</text></g>
+<path d="M297 518H315" stroke="#fff" stroke-width="3"/>
+<path d="M314 518H732V141" fill="none" stroke="#172438" stroke-width="3"/>
+<text x="514" y="505" font-size="15">Common ground</text>
+<g font-size="13"><g fill="none" stroke="#bf292f" stroke-width="3"><path d="M298 141H421 M522 141H570 M650 141H732"/><rect x="421" y="130" width="101" height="22" rx="5"/><rect x="570" y="129" width="80" height="24" rx="12"/></g><text x="471" y="146" text-anchor="middle">220–330 Ω</text><text x="610" y="146" text-anchor="middle">+ LED −</text><text x="610" y="171" text-anchor="middle" fill="#bf292f">Red LED</text><circle cx="732" cy="141" r="4" fill="#172438"/>
+<g fill="none" stroke="#8a6000" stroke-width="3"><path d="M298 170H344V207H421 M522 207H570 M650 207H732"/><rect x="421" y="196" width="101" height="22" rx="5"/><rect x="570" y="195" width="80" height="24" rx="12"/></g><text x="471" y="212" text-anchor="middle">220–330 Ω</text><text x="610" y="212" text-anchor="middle">+ LED −</text><text x="610" y="237" text-anchor="middle" fill="#8a6000">Yellow LED</text><circle cx="732" cy="207" r="4" fill="#172438"/>
+<g fill="none" stroke="#197548" stroke-width="3"><path d="M298 257H327V273H421 M522 273H570 M650 273H732"/><rect x="421" y="262" width="101" height="22" rx="5"/><rect x="570" y="261" width="80" height="24" rx="12"/></g><text x="471" y="278" text-anchor="middle">220–330 Ω</text><text x="610" y="278" text-anchor="middle">+ LED −</text><text x="610" y="303" text-anchor="middle" fill="#197548">Green LED</text><circle cx="732" cy="273" r="4" fill="#172438"/></g>
+</g>
+</svg>
