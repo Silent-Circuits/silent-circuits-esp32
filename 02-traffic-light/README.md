@@ -9,6 +9,10 @@ Three external LEDs repeat a 14-second traffic light cycle on an ESP32 HW-394.
 | Green | 5 s |
 | Yellow | 2 s |
 
+## Video Tutorial
+
+[Watch the tutorial on YouTube](https://youtu.be/65SfjZVwT-Q)
+
 ## Parts
 
 - ESP32 HW-394 (30-pin, USB-C)
