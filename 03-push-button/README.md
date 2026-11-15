@@ -43,4 +43,8 @@ D22 (GPIO22) ─────── [ PUSH BUTTON ] ─────────�
 3. Select **ESP32 Dev Module** and the correct serial port.
 4. Upload and test: LED on while pressed, off when released.
 
+## Video tutorial
+
+Watch Lesson 03 on YouTube: https://youtu.be/batVK6AZFpM
+
 Part of [Silent Circuits ESP32](../README.md).
