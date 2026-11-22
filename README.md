@@ -9,6 +9,7 @@ Free ESP32 and Arduino IDE projects from the Silent Circuits YouTube channel.
 | [`01-blink-led`](01-blink-led/) | Blink an external LED | Published |
 | [`02-traffic-light`](02-traffic-light/) | Build an LED traffic light | Published |
 | [`03-push-button`](03-push-button/) | Control an LED with a push button | Published |
+| [`04-pwm-led-dimmer`](04-pwm-led-dimmer/) | Fade an LED with PWM | Published |
 
 Each published lesson gets a numbered folder and an English README with a parts list, wiring instructions, and upload steps. The main `.ino` file uses the same name as its sketch folder so it opens directly in Arduino IDE. For example, the first sketch lives at `01-blink-led/01-blink-led.ino`.
 
